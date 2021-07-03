@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 const NavBar = () => {
     return (
-        <Navbar expand="lg" style={{ background: 'rgb(34 174 221)', height: '70px' }}>
+        <Navbar expand="lg" fixed="top" bg="none" className="py-4">
             <Container>
                 <Link href="/">
-                    <a><h5>Mitnog-IT</h5></a>
+                    <a style={{ textDecoration: 'none', color: '#fff' }}><h5>Mitnog-IT</h5></a>
                 </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

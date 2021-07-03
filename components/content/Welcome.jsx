@@ -13,17 +13,21 @@ const Welcome = () => {
 
     return (
         <section className={style.container}>
-            <Carousel activeIndex={index} onSelect={handleSelect}
+            <div className={style.content}>
+                <h1 className={style.slogan}>Our Tech, Your Business</h1>
+                <br /> <h3>Digital Marketing</h3>
+            </div>
+            {/* <Carousel activeIndex={index} onSelect={handleSelect}
                 interval={10000} pause="click" touch={true}
                 controls={false}>
                 <Carousel.Item className={style.carouselItm}>
                     <div className={style.welcome}></div>
 
-                    {/* <div className={style.first_img_text}>
+                    <div className={style.first_img_text}>
                         <h1>Our Tech, Your Future</h1>
-                    </div> */}
+                    </div>
                 </Carousel.Item>
-                {/* <Carousel.Item className={style.carouselItm}>
+                <Carousel.Item className={style.carouselItm}>
                     <div className={style.web_development}></div>
 
                     <div className={style.first_img_text}>
@@ -49,8 +53,8 @@ const Welcome = () => {
                         <h1>Our Tech, Your Future</h1>
                         <h1>Our Tech, Your Future</h1>
                     </div>
-                </Carousel.Item> */}
-            </Carousel>
+                </Carousel.Item>
+            </Carousel> */}
         </section>
     );
 };
