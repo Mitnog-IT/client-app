@@ -1,0 +1,64 @@
+.heading {
+  text-align: center;
+  padding-top: 30px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.card {
+  width: 21rem;
+  height: 310px;
+  /* margin: 20px; */
+  /* border: 1px solid #0c6475; */
+  border: none;
+  text-align: center;
+  padding: 20px 0px;
+  transition: 0.7s ease;
+}
+
+.hov_content {
+  display: none;
+  text-align: start;
+  height: 310px;
+}
+
+.card:hover .hov_content {
+  display: block;
+}
+
+.card:hover {
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  background-color: #0c6475;
+  color: #fff;
+}
+
+.card:hover .card_content {
+  display: none;
+}
+
+.card_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card_img > :nth-child(1) {
+  width: 120px !important;
+  height: 120px !important;
+}
+.btn {
+  padding: 5px 30px;
+  background-color: #fff;
+  border: 2px solid #0c6475;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+.btn:hover {
+  background-color: #0c6475;
+  border: 2px solid #fff;
+  color: #fff;
+}

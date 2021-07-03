@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Service from '../components/content/Service';
 import Welcome from '../components/content/Welcome';
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <Welcome />
+      <Service />
 
       {/* <footer className={styles.footer}>
         <a
