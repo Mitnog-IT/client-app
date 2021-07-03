@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import style from '../../styles/Welcome.module.css';
-import image1 from '/public/welcome.jpeg';
-import Image from 'next/image'
+import Typist from 'react-text-typist';
 
 const Welcome = () => {
     const [index, setIndex] = useState(0);
@@ -14,47 +13,16 @@ const Welcome = () => {
     return (
         <section className={style.container}>
             <div className={style.content}>
-                <h1 className={style.slogan}>Our Tech, Your Business</h1>
-                <br /> <h3>Digital Marketing</h3>
+                <h1>Our Tech, Your Business</h1>
+                <br /> <h3 >
+                    <b><Typist sentences={
+                        ['Digital Marketing', 'Web Development', 'Graphic Design']
+                    }
+                        onChange={(e) => console.log(e.target.value)}
+                        typingSpeed={100}
+                        loop={true} /></b>
+                </h3>
             </div>
-            {/* <Carousel activeIndex={index} onSelect={handleSelect}
-                interval={10000} pause="click" touch={true}
-                controls={false}>
-                <Carousel.Item className={style.carouselItm}>
-                    <div className={style.welcome}></div>
-
-                    <div className={style.first_img_text}>
-                        <h1>Our Tech, Your Future</h1>
-                    </div>
-                </Carousel.Item>
-                <Carousel.Item className={style.carouselItm}>
-                    <div className={style.web_development}></div>
-
-                    <div className={style.first_img_text}>
-                        <h1>Our Tech, Your Future</h1>
-                        <h1>Our Tech, Your Future</h1>
-                    </div>
-
-                </Carousel.Item>
-                <Carousel.Item className={style.carouselItm}>
-                    <div className={style.marketing}></div>
-
-                    <div className={style.first_img_text}>
-                        <h1>Our Tech, Your Future</h1>
-                        <h1>Our Tech, Your Future</h1>
-                        <h1>Our Tech, Your Future</h1>
-                    </div>
-                </Carousel.Item>
-                <Carousel.Item className={style.carouselItm}>
-                    <div className={style.design}></div>
-
-                    <div className={style.first_img_text}>
-                        <h1>Our Tech, Your Future</h1>
-                        <h1>Our Tech, Your Future</h1>
-                        <h1>Our Tech, Your Future</h1>
-                    </div>
-                </Carousel.Item>
-            </Carousel> */}
         </section>
     );
 };

@@ -4,7 +4,8 @@ import Link from 'next/link';
 
 const NavBar = () => {
     return (
-        <Navbar expand="lg" fixed="top" bg="none" className="py-4">
+        <Navbar expand="lg" fixed="top" bg="none" className="py-4"
+            style={{ fontFamily: '"Roboto Slab", serif' }}>
             <Container>
                 <Link href="/">
                     <a style={{ textDecoration: 'none', color: '#fff' }}><h5>Mitnog-IT</h5></a>
