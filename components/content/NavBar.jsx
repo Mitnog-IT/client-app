@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const NavBar = () => {
     return (
-        <Navbar bg="info" expand="lg">
+        <Navbar expand="lg" style={{ background: 'rgb(34 174 221)', height: '70px' }}>
             <Container>
                 <Link href="/">
                     <a><h5>Mitnog-IT</h5></a>
@@ -27,13 +27,6 @@ const NavBar = () => {
                         <Link href="/">
                             <a><b>Review</b></a>
                         </Link>
-                        {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                        </NavDropdown> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>

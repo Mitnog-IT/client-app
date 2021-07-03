@@ -13,30 +13,43 @@ const Welcome = () => {
 
     return (
         <section className={style.container}>
-            <Carousel activeIndex={index} onSelect={handleSelect}>
+            <Carousel activeIndex={index} onSelect={handleSelect}
+                interval={10000} pause="click" touch={true}
+                controls={false}>
                 <Carousel.Item className={style.carouselItm}>
-                    {/* <Image src={image1} width={1400} height={600} alt="First slide" /> */}
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
+                    <div className={style.welcome}></div>
+
+                    {/* <div className={style.first_img_text}>
+                        <h1>Our Tech, Your Future</h1>
+                    </div> */}
                 </Carousel.Item>
-                <Carousel.Item>
-                    <Image src={image1} width={1400} height={600} alt="Second slide" />
-                    <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
+                {/* <Carousel.Item className={style.carouselItm}>
+                    <div className={style.web_development}></div>
+
+                    <div className={style.first_img_text}>
+                        <h1>Our Tech, Your Future</h1>
+                        <h1>Our Tech, Your Future</h1>
+                    </div>
+
                 </Carousel.Item>
-                <Carousel.Item>
-                    <Image src={image1} width={1400} height={600} alt="Third slide" />
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
-                    </Carousel.Caption>
+                <Carousel.Item className={style.carouselItm}>
+                    <div className={style.marketing}></div>
+
+                    <div className={style.first_img_text}>
+                        <h1>Our Tech, Your Future</h1>
+                        <h1>Our Tech, Your Future</h1>
+                        <h1>Our Tech, Your Future</h1>
+                    </div>
                 </Carousel.Item>
+                <Carousel.Item className={style.carouselItm}>
+                    <div className={style.design}></div>
+
+                    <div className={style.first_img_text}>
+                        <h1>Our Tech, Your Future</h1>
+                        <h1>Our Tech, Your Future</h1>
+                        <h1>Our Tech, Your Future</h1>
+                    </div>
+                </Carousel.Item> */}
             </Carousel>
         </section>
     );
