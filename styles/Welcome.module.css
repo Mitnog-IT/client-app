@@ -30,7 +30,6 @@
   position: absolute;
   top: 0;
   left: 50%;
-
   transform: skew(15deg) translateX(-50%);
   width: 75%;
   height: 100%;

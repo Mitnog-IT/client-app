@@ -7,38 +7,7 @@
   align-items: center;
   justify-content: center;
   padding-top: 20px;
-}
-
-.card {
-  width: 21rem;
-  height: 310px;
-  /* margin: 20px; */
-  /* border: 1px solid #0c6475; */
-  border: none;
-  text-align: center;
-  padding: 20px 0px;
-  transition: 0.7s ease;
-}
-
-.hov_content {
-  display: none;
-  text-align: start;
-  height: 310px;
-}
-
-.card:hover .hov_content {
-  display: block;
-}
-
-.card:hover {
-  border-bottom-right-radius: 50px;
-  border-top-left-radius: 50px;
-  background-color: #0c6475;
-  color: #fff;
-}
-
-.card:hover .card_content {
-  display: none;
+  /* height: 100vh; */
 }
 
 .card_img {
@@ -46,19 +15,122 @@
   align-items: center;
   justify-content: center;
 }
+
 .card_img > :nth-child(1) {
   width: 120px !important;
   height: 120px !important;
 }
+
 .btn {
   padding: 5px 30px;
   background-color: #fff;
-  border: 2px solid #0c6475;
+  border: 2px solid #0aa2c0;
   font-weight: 700;
   transition: 0.3s ease;
 }
+
 .btn:hover {
-  background-color: #0c6475;
+  background-color: #0aa2c0;
   border: 2px solid #fff;
   color: #fff;
+}
+
+/* card style */
+
+.card {
+  width: 21rem;
+  height: 355px;
+  /* border: 1px solid #0c6475; */
+  border: none;
+  text-align: center;
+  transition: 0.8s ease;
+  padding-top: 10px;
+}
+
+.card:hover {
+  border-top-left-radius: 50px;
+  background-color: #0aa2c0;
+}
+.card:hover .btn {
+  border: 2px solid #0aa2c0;
+}
+
+.card:hover .card_content {
+  display: none;
+}
+
+/*  card content after hover*/
+.hov_content {
+  display: none;
+  height: 355px;
+  transition: 0.8s ease;
+  color: #fff;
+}
+
+.card:hover .hov_content {
+  display: block;
+  padding: 10px 0px;
+}
+
+/* web development card */
+.development_card {
+  position: relative;
+  z-index: 100;
+  transition: 0.8s ease;
+}
+.development_card:hover::after {
+  background-image: url("../public/Web-development.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+}
+
+/* digital marketing card */
+.marketing_card {
+  position: relative;
+  z-index: 100;
+  transition: 0.8s ease;
+}
+.marketing_card:hover::after {
+  background-image: url("../public/markrting-removebg-preview.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+}
+
+/* graphic card  */
+.graphic_card {
+  position: relative;
+  z-index: 100;
+  transition: 0.8s ease;
+}
+.graphic_card:hover::after {
+  background-image: url("../public/graphic-design-large-white.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
 }
