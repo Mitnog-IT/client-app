@@ -9,7 +9,7 @@ import { FaArrowAltCircleRight } from 'react-icons/fa';
 const Service = () => {
     return (
         <section id="services"
-            style={{ fontFamily: '"Roboto Slab", serif' }}>
+            style={{ fontFamily: '"Roboto Slab", serif', padding: '30px 0px' }}>
             <div className={style.heading}>
                 <h3>Our Services</h3>
                 <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
@@ -120,13 +120,6 @@ const Service = () => {
                     </Col>
                 </Row>
             </div>
-            <h3 className="pt-5">
-                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut eum dolor magni sint accusamus, repudiandae voluptatum dolores repellendus exercitationem ad doloribus perferendis obcaecati rerum, vero quia reprehenderit hic fugiat veritatis!</div>
-                <div>Excepturi, maxime pariatur. Voluptas quibusdam eum consectetur vero non quo ut debitis qui rem dicta? Cumque consectetur, voluptatibus laborum tempore, sequi aperiam ex magni tenetur est quisquam beatae dolorum nihil.</div>
-                <div>Quaerat, ex aliquid nisi autem facere architecto sequi maxime veritatis nemo beatae doloribus officia rem ipsa, repellat ut inventore aspernatur cumque laborum fugit? Provident adipisci porro, esse laborum reprehenderit vitae!</div>
-                <div>Aperiam ex neque voluptatum beatae amet debitis minus, voluptas aspernatur fugit rerum optio, commodi nemo possimus. Cum assumenda natus totam iste magni eaque, sit culpa. Explicabo eius ad nesciunt? Error.</div>
-                <div>Quam cupiditate laudantium dolores numquam dolorem corporis tempore illo temporibus eos molestiae. Incidunt facere amet eligendi officiis? Nam deleniti cupiditate expedita earum ullam dolor quam, perferendis corrupti optio nemo eveniet?</div>
-            </h3>
         </section>
     );
 };

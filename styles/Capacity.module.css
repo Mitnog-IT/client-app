@@ -1,0 +1,12 @@
+.heading {
+  text-align: center;
+  /* padding-top: 50px; */
+}
+.row {
+  min-height: 70vh;
+  background-color: #0aa2c0;
+  color: #fff;
+}
+.row > p {
+    text-align: justify;
+}

@@ -1,3 +1,7 @@
+.navBar{
+    background-color: #0aa2c0;
+}
+
 .navItems > a {
     text-decoration: none;
     margin-right: 50px;
