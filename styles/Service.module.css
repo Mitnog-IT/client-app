@@ -37,20 +37,25 @@
 
 .card {
   width: 21rem;
-  height: 355px;
-  /* border: 1px solid #0c6475; */
+  min-height: 355px;
+  /* border: 1px solid #0aa2c0; */
   border: none;
   text-align: center;
-  transition: 0.8s ease;
+  transition: .8s ease;
   padding-top: 10px;
 }
 
 .card:hover {
   border-top-left-radius: 50px;
   background-color: #0aa2c0;
+  transition: 1s ease;
 }
 .card:hover .btn {
   border: 2px solid #0aa2c0;
+}
+.card_content{
+  height: 100%;
+  width: 100%;
 }
 
 .card:hover .card_content {
@@ -60,21 +65,21 @@
 /*  card content after hover*/
 .hov_content {
   display: none;
-  height: 355px;
+  height: 100%;
+  /* width: 100%; */
   transition: 0.8s ease;
   color: #fff;
 }
 
 .card:hover .hov_content {
   display: block;
-  padding: 10px 0px;
+  padding-top: 10px;
 }
 
 /* web development card */
 .development_card {
   position: relative;
-  z-index: 100;
-  transition: 0.8s ease;
+  z-index: 1000;
 }
 .development_card:hover::after {
   background-image: url("../public/Web-development.png");
@@ -84,18 +89,15 @@
   opacity: 0.2;
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  z-index: -100;
+  z-index: -1000;
 }
 
 /* digital marketing card */
 .marketing_card {
   position: relative;
-  z-index: 100;
-  transition: 0.8s ease;
+  z-index: 1000;
 }
 .marketing_card:hover::after {
   background-image: url("../public/markrting-removebg-preview.png");
@@ -105,18 +107,15 @@
   opacity: 0.3;
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  z-index: -100;
+  z-index: -1000;
 }
 
 /* graphic card  */
 .graphic_card {
   position: relative;
-  z-index: 100;
-  transition: 0.8s ease;
+  z-index: 1000;
 }
 .graphic_card:hover::after {
   background-image: url("../public/graphic-design-large-white.png");
@@ -126,9 +125,7 @@
   opacity: 0.3;
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  z-index: -100;
+  z-index: -1000;
 }

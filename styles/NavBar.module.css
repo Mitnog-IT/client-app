@@ -1,9 +1,10 @@
-.navBar{
-    background-color: #0aa2c0;
+
+.scrollNavBar {
+  backdrop-filter: blur(15px) brightness(50%) saturate(70%);
 }
 
 .navItems > a {
-    text-decoration: none;
-    margin-right: 50px;
-    color: #fff;
+  text-decoration: none;
+  margin-right: 50px;
+  color: #fff;
 }
