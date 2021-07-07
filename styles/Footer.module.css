@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+.footer {
+  background-image: url(../public/footer-bg.png);
+  /* background-color: #0aa2c0; */
+  /* color: #fff; */
+  /* border: 2px solid #0aa2c0; */
+  font-family: "Roboto Slab", serif;
+  /* font-family: "Lato", sans-serif; */
+}
+.social > a {
+  /* color: #fff; */
+  color: #0aa2c0;
+  text-decoration: none;
+}
+
+.social > a:hover {
+  color: #7dbcca;
+  text-decoration: none;
+}
+
+.block > small {
+  cursor: pointer;
+}
+
+.block > small:hover {
+  color: #0aa2c0;
+}

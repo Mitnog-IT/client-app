@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Capacity from '../components/content/Capacity';
+import Footer from '../components/content/Footer';
 import Service from '../components/content/Service';
 import Welcome from '../components/content/Welcome';
 
@@ -26,6 +27,7 @@ export default function Home() {
       <Welcome />
       <Service />
       <Capacity />
+      <Footer/>
 
       {/* <footer className={styles.footer}>
         <a

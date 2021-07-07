@@ -10,8 +10,8 @@ const Capacity = () => {
     return (
         <section id="capacity" style={{
             fontFamily: '"Roboto Slab", serif',
-            padding: '30px 0px',
-            overflow: 'hidden'
+            paddingTop: '30px',
+            overflow: 'hidden',
         }}>
             <div className={style.heading}>
                 <h3>We are different</h3>
