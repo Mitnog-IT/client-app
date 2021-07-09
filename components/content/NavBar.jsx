@@ -1,9 +1,9 @@
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import style from '../../styles/NavBar.module.css';
 import Link from 'next/link';
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import logo from '../../public/logo1-removebg-preview.png';
+// import logo from '../../public/large2-removebg-preview.png';
 
 const NavBar = () => {
     const [isScroll, setIsScroll] = useState(false);
@@ -25,11 +25,12 @@ const NavBar = () => {
     return (
         <Navbar expand="lg" fixed="top"
             className={isScroll ? `${style.scrollNavBar}` : 'py-3'}
-            style={{ transition: '0.8s ease', fontFamily: '"Roboto Slab", serif' }}>
+            style={{ transition: '.7s ease', fontFamily: '"Roboto Slab", serif' }}>
             <Container>
                 <Link href="/">
-                    <a>
-                        <Image src={logo} alt="mitnog it" width={200} height={66} />
+                    <a style={{ textDecoration: 'none',color:'#fff' }}>
+                        <h3><b>Mitnog-IT</b></h3>
+                        {/* <Image src={logo} alt="mitnog it" width={200} height={66} /> */}
                     </a>
                 </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

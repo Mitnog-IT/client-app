@@ -36,7 +36,6 @@ const Footer = () => {
                             <small>Digital Marketing</small><br />
                             <small>SEO</small><br />
                             <small>Graphics Design</small><br />
-                            <small>Domain Hosting</small><br />
                             <small>CMS</small>
                         </div>
                     </Col>
@@ -51,8 +50,7 @@ const Footer = () => {
                             <small>Career</small><br />
                             <small>Help & Support</small><br />
                             <small>Terms & Conditions</small><br />
-                            <small>Privacy Policy</small><br />
-                            {/* <small>CMS</small> */}
+                            <small>Privacy Policy</small>
                         </div>
                     </Col>
                     <Col md={4}>
