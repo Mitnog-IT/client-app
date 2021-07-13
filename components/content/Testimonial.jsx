@@ -4,8 +4,10 @@ import Image from 'next/image';
 import client1 from '../../public/client_1.png';
 import client2 from '../../public/client_2.png';
 import client3 from '../../public/client_3.png';
+import data from '../../Data/Testimonial.json';
 
 const Testimonial = () => {
+    console.log(data)
     return (
         <section className={style.container}>
             <Carousel controls={false} interval={2000} pause={false} fade={true}>
