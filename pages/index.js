@@ -1,8 +1,10 @@
 import Head from 'next/head';
+import Welcome from '../components/content/Welcome';
+import Service from '../components/content/Service';
+import Portfolio from '../components/content/Portfolio';
 import Capacity from '../components/content/Capacity';
 import Footer from '../components/content/Footer';
-import Service from '../components/content/Service';
-import Welcome from '../components/content/Welcome';
+import Testimonial from '../components/content/Testimonial';
 
 export default function Home() {
   return (
@@ -26,8 +28,10 @@ export default function Home() {
       </Head>
       <Welcome />
       <Service />
+      {/* <Portfolio /> */}
       <Capacity />
-      <Footer/>
+      <Testimonial />
+      <Footer />
 
       {/* <footer className={styles.footer}>
         <a

@@ -40,9 +40,6 @@
 .container::before {
   transform: skew(-15deg) translateX(-50%);
 }
-/* .banner {
-  overflow: hidden;
-} */
 
 .container > * {
   z-index: 100;

@@ -11,7 +11,6 @@ const Welcome = () => {
                     <b><Typist sentences={
                         ['Digital Marketing', 'Web Development', 'Graphic Design']
                     }
-                        onChange={(e) => console.log(e.target.value)}
                         typingSpeed={100}
                         loop={true} /></b>
                 </h3>

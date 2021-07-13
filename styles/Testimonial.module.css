@@ -1,0 +1,51 @@
+.container {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  background: url("https://maserfilms.com/wp-content/uploads/2017/12/testimonial-background.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+.item_card > p {
+color: #fff;
+}
+
+.item_card:nth-child(1) > div {
+  border-radius: 50% !important;
+  box-sizing: none !important;
+}
+
+.container::after,
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: skew(15deg) translateX(-50%);
+  width: 75%;
+  height: 100%;
+  background-image: linear-gradient(120deg, #2aa2c7, #333435);
+  background-color: #333;
+  opacity: 0.6;
+}
+.container::before {
+  transform: skew(-15deg) translateX(-50%);
+}
+
+.container > * {
+  z-index: 1000;
+}
+
+/* https://maserfilms.com/wp-content/uploads/2017/12/testimonial-background.jpg */
+
+/* https://technosoftacademy.io/wp-content/uploads/2016/11/Page-Banner-Testimonial-2.jpg */
+
+/* https://lh3.googleusercontent.com/proxy/TpLF92iCbF_q2S7sqRsoRnSrNVoCKgsGzYYcvwoIaSL0Bwg3UdPKkabahkmzbMSeG5cIfW-Q7wTPNlgVCKnGV2zfSS1xM1EDU-Fjw3KIBW2On2mADCG4u6Adl92T024AK2-dQUtJuh6LOJniOV6Dot8 */
