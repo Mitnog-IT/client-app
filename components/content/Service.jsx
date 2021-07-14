@@ -1,52 +1,112 @@
 import { Card, Col, Row } from 'react-bootstrap';
 import style from '../../styles/Service.module.css';
-import marketing from '../../public/digital-marketing.png';
-import develop from '../../public/programming.png';
-import design from '../../public/graphic-design.png';
 import Image from 'next/image';
-import { FaArrowAltCircleRight } from 'react-icons/fa';
 import data from '../../Data/Services.json';
-import { AnimationWrapper, useHover } from 'react-hover-animation';
+import Particles from "react-tsparticles";
 
 const Service = () => {
-    const { spring, animated, setHover } = useHover({
-        color: {
-            initial: 'black',
-            onHover: 'red',
-        },
-        animationConfig: {
-            duration: 500,
-        },
-    })
 
     return (
         <section id="services"
-            style={{ fontFamily: '"Roboto Slab", serif', padding: '30px 0px' }}>
-            <div className={style.heading}>
-                <h3>Our Services</h3>
-                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+            style={{ fontFamily: '"Roboto Slab", serif', position: 'relative', overflow: 'hidden' }}>
+            <div style={{ position: 'absolute' }}>
+                <Particles height="100vw" width="100vw"
+                    id="tsparticles"
+                    options={{
+                        background: {
+                            color: {
+                                value: "#fff",
+                            },
+                        },
+                        fpsLimit: 200,
+                        interactivity: {
+                            detectsOn: "canvas",
+                            modes: {
+                                bubble: {
+                                    distance: 500,
+                                    duration: 10,
+                                    opacity: 0.1,
+                                    size: 140,
+                                }
+                            },
+                        },
+                        particles: {
+                            color: {
+                                value: "#0aa2c0",
+                            },
+                            links: {
+                                color: "#fff",
+                                distance: 130,
+                                enable: true,
+                                opacity: 0.5,
+                                width: 1,
+                            },
+                            collisions: {
+                                enable: true,
+                            },
+                            move: {
+                                direction: "none",
+                                enable: true,
+                                outMode: "bounce",
+                                random: false,
+                                speed: 3,
+                                straight: false,
+                            },
+                            number: {
+                                density: {
+                                    enable: true,
+                                    value_area: 800,
+                                },
+                                value: 80,
+                            },
+                            opacity: {
+                                value: 0.5,
+                            },
+                            shape: {
+                                type: "circle",
+                            },
+                            size: {
+                                random: true,
+                                value: 6,
+                            },
+                        },
+                        detectRetina: true,
+                    }}
+                />
             </div>
-            <div className="container">
-                <Row>
-                    {
-                        data.map(item => (
-                            <Col lg={3} md={4} sm={6} key={item.id}>
-                                <Card
-                                    className={`text-center mt-3 p-1 ${style.card}`}>
-                                    <div className={style.card_img}>
-                                        <Image src={item.logo} alt={item.title} width={200} height={100} />
-                                    </div>
+            <div style={{ position: 'relative' }}>
+                <div className={style.heading}>
+                    <h3>Services We Provide</h3>
+                    <div className="d-flex justify-content-center">
+                        <div style={{
+                            height: '3px',
+                            background: '#0aa2c0',
+                            width: '15%',
+                            borderRadius: '20px',
+                        }}></div>
+                    </div>
+                </div>
+                <div className="container pb-3">
+                    <Row>
+                        {
+                            data.map(item => (
+                                <Col lg={3} md={4} sm={6} key={item.id}>
+                                    <Card
+                                        className={`text-center mt-3 p-1 ${style.card}`}>
+                                        <div className={style.card_img}>
+                                            <Image src={item.logo} alt={item.title} width={200} height={100} />
+                                        </div>
 
-                                    <h5>{item.title}</h5>
-                                    <Card.Text>
-                                        <small>{item.about}</small>
-                                    </Card.Text>
-                                </Card>
-                            </Col>
-                        ))
-                    }
-                </Row>
-                {/* <Row className={style.container}>
+                                        <h5 className={style.title}>{item.title}</h5>
+                                        <Card.Text>
+                                            <small>{item.about}</small>
+                                        </Card.Text>
+                                    </Card>
+                                </Col>
+                            ))
+                        }
+                    </Row>
+                    {/* <Row className={style.container}>
                     <Col md={4} className="d-flex justify-content-center mt-3">
                         <Card className={`${style.development_card} ${style.card}`}>
                             <div className={style.card_content}>
@@ -150,6 +210,7 @@ const Service = () => {
                         </Card>
                     </Col>
                 </Row> */}
+                </div>
             </div>
         </section >
     );
