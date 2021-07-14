@@ -11,12 +11,14 @@
   "dependencies": {
     "bootstrap": "^5.0.2",
     "next": "11.0.1",
-    "react": "17.0.2",
+    "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
     "react-dom": "17.0.2",
     "react-icons": "^4.2.0",
+    "react-particles-js": "^3.5.3",
     "react-responsive-carousel": "^3.2.18",
-    "react-text-typist": "^1.0.6"
+    "react-text-typist": "^1.0.6",
+    "react-tsparticles": "^1.31.2"
   },
   "devDependencies": {
     "eslint": "7.29.0",
