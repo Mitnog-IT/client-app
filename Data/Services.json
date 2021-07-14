@@ -3,19 +3,19 @@
         "id": 1,
         "title": "SEO",
         "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
-        "logo": "https://i.ibb.co/4gDgF8V/seo-logo-design-vector.webp"
+        "logo": "https://i.ibb.co/71zg5Js/seo-2.png"
     },
     {
         "id": 2,
         "title": "Social Media Marketing",
         "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
-        "logo": "https://i.ibb.co/b2kmpZH/social-media-removebg-preview.png"
+        "logo": "https://i.ibb.co/K9YCzbN/social-media.png"
     },
     {
         "id": 3,
         "title": "Video Marketing",
         "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
-        "logo": "https://i.ibb.co/Tw09d9V/video-marketing-removebg-preview-2.png"
+        "logo": "https://i.ibb.co/WvhfkSk/video-marketing.png"
     },
     {
         "id": 4,
@@ -27,13 +27,13 @@
         "id": 5,
         "title": "Web Development",
         "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
-        "logo": "https://i.ibb.co/CnZLtc3/web-development-logo-removebg-preview.png"
+        "logo": "https://i.ibb.co/LZJWwp8/web-development-logo.png"
     },
     {
         "id": 6,
         "title": "Web Design",
         "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
-        "logo": "https://i.ibb.co/XZLjpVx/web-design-removebg-preview-1.png"
+        "logo": "https://i.ibb.co/HYGBmhB/web-design.png"
     },
     {
         "id": 7,
@@ -45,7 +45,7 @@
         "id": 8,
         "title": "Mobile App",
         "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
-        "logo": "https://i.ibb.co/d7Z536w/mobile-app-removebg-preview.png"
+        "logo": "https://i.ibb.co/PrMFQmw/mobile-app.png"
     },
     {
         "id": 9,
@@ -54,16 +54,10 @@
         "logo": "https://i.ibb.co/jRxtNNc/e-commerce-2-removebg-preview.png"
     },
     {
-        "id": 10,
-        "title": "Software Development",
-        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
-        "logo": "https://i.ibb.co/7p3MV6r/software-development-removebg-preview.png"
-    },
-    {
         "id": 11,
         "title": "CMS",
         "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
-        "logo": "https://i.ibb.co/NmdWY34/Wordpress-Blue-logo.png"
+        "logo": "https://i.ibb.co/T4SvZRy/Wordpress-Blue-logo.png"
     },
     {
         "id": 12,

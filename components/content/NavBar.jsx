@@ -23,7 +23,7 @@ const NavBar = () => {
 
 
     return (
-        <Navbar expand="lg" fixed="top"
+        <Navbar expand="lg" 
             className={isScroll ? `${style.scrollNavBar}` : 'py-3'}
             style={{ transition: '.7s ease', fontFamily: '"Roboto Slab", serif' }}>
             <Container>

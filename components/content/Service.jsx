@@ -6,8 +6,19 @@ import design from '../../public/graphic-design.png';
 import Image from 'next/image';
 import { FaArrowAltCircleRight } from 'react-icons/fa';
 import data from '../../Data/Services.json';
+import { AnimationWrapper, useHover } from 'react-hover-animation';
 
 const Service = () => {
+    const { spring, animated, setHover } = useHover({
+        color: {
+            initial: 'black',
+            onHover: 'red',
+        },
+        animationConfig: {
+            duration: 500,
+        },
+    })
+
     return (
         <section id="services"
             style={{ fontFamily: '"Roboto Slab", serif', padding: '30px 0px' }}>
@@ -15,17 +26,18 @@ const Service = () => {
                 <h3>Our Services</h3>
                 <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
             </div>
-            <div className="">
+            <div className="container">
                 <Row>
                     {
                         data.map(item => (
                             <Col lg={3} md={4} sm={6} key={item.id}>
-                                <Card className="text-center mt-3 p-3 bg-info">
+                                <Card
+                                    className={`text-center mt-3 p-1 ${style.card}`}>
                                     <div className={style.card_img}>
                                         <Image src={item.logo} alt={item.title} width={200} height={100} />
                                     </div>
 
-                                    <Card.Title>{item.title}</Card.Title>
+                                    <h5>{item.title}</h5>
                                     <Card.Text>
                                         <small>{item.about}</small>
                                     </Card.Text>
@@ -139,7 +151,7 @@ const Service = () => {
                     </Col>
                 </Row> */}
             </div>
-        </section>
+        </section >
     );
 };
 
