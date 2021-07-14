@@ -1,32 +1,37 @@
 [
     {
+        "id": 1,
         "author": "Micheal Adian",
         "city": "New York",
         "country": "USA",
         "speech": "Mitnog IT was an amazing service provider. They helped me with setting up the domain to my host and also asked all the questions I had about the set up. I am so amazed and thankful I found this service."
     },
     {
+        "id": 2,
         "author": "William Branson",
         "city": "Washington",
         "country": "USA",
         "speech": "This Mitnog IT is amazing and excellent on work. They have a lot of patience being that this was my first website developed and I was a little hard to deal with and a little hard communicating my ideas. I will continue with Mitnog IT on future projects of my business."
     },
     {
+        "id": 3,
         "author": "Joshua Teff",
         "city": "Berlin",
         "country": "Germany",
-        "speech": "I am Highly Recommend <b>Mitnog IT</b> For website development and website SEO. Recently I developed my website & website seo and i am very satisfied"
+        "speech": "I am Highly Recommend Mitnog IT For website development and website SEO. Recently I developed my website & website seo and i am very satisfied"
     },
     {
+        "id": 4,
         "author": "Anthony Isiah",
         "city": "Marsellie",
         "country": "Franch",
-        "speech": "Mitnog IT created a step by step plan of action for optimizing my website. They broke all the steps down and showed me how and why traffic would increase when implementation was done correctly. They went above and beyond in teaching me seo and I’m so grateful. I got everything I recommend <b>Mitnog IT</b> for website SEO."
+        "speech": "Mitnog IT created a step by step plan of action for optimizing my website. They broke all the steps down and showed me how and why traffic would increase when implementation was done correctly. They went above and beyond in teaching me seo and I’m so grateful. I got everything I recommend Mitnog IT for website SEO."
     },
     {
+        "id": 5,
         "author": "James jayden",
         "city": "New Jersey",
         "country": "USA",
-        "speech": "I am very satisfied to work with Mitnog IT. I got a unique design of my website with logo. I highly recommended <b>Mitnog IT</b> for Design Needed people."
+        "speech": "I am very satisfied to work with Mitnog IT. I got a unique design of my website with logo. I highly recommended Mitnog IT for Design Needed people."
     }
 ]

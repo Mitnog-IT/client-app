@@ -5,16 +5,16 @@
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
+  height: 450px;
 }
 .items {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 400px;
 }
-.item_card > p {
+.item_card > h4 {
 color: #fff;
 }
 

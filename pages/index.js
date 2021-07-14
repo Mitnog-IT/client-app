@@ -5,6 +5,7 @@ import Portfolio from '../components/content/Portfolio';
 import Capacity from '../components/content/Capacity';
 import Footer from '../components/content/Footer';
 import Testimonial from '../components/content/Testimonial';
+import ExtraPart from '../components/content/ExtraPart';
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       <Service />
       {/* <Portfolio /> */}
       <Capacity />
+      <ExtraPart />
       <Testimonial />
       <Footer />
 
