@@ -3,15 +3,12 @@ import style from '../../styles/Testimonial.module.css';
 import Image from 'next/image';
 import client1 from '../../public/client_1.png';
 import data from '../../Data/Testimonial.json';
-import { AiOutlineStar, AiFillStar } from 'react-icons/ai';
-// import SingleTestimonial from './SingleTesmonial';
+import { AiFillStar } from 'react-icons/ai';
 
-const Testimonial = (props) => {
-    console.log("props is:", props)
+const Testimonial = () => {
     return (
         <>
             <Carousel controls={false} interval={3000} pause={false} fade={true} className={style.container}>
-                {/* <h3 classNameName="text-light pt-3">What our clients are saying</h3> */}
                 {
                     data.map(item => (
                         <Carousel.Item key={item.id}>

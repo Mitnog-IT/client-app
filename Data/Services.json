@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "SEO",
+        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "logo": "https://i.ibb.co/4gDgF8V/seo-logo-design-vector.webp"
+    },
+    {
+        "id": 2,
+        "title": "Social Media Marketing",
+        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "logo": "https://i.ibb.co/b2kmpZH/social-media-removebg-preview.png"
+    },
+    {
+        "id": 3,
+        "title": "Video Marketing",
+        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "logo": "https://i.ibb.co/Tw09d9V/video-marketing-removebg-preview-2.png"
+    },
+    {
+        "id": 4,
+        "title": "Email Marketing",
+        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "logo": "https://i.ibb.co/gmB9RtD/email-marketing-logo-removebg-preview.png"
+    },
+    {
+        "id": 5,
+        "title": "Web Development",
+        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "logo": "https://i.ibb.co/CnZLtc3/web-development-logo-removebg-preview.png"
+    },
+    {
+        "id": 6,
+        "title": "Web Design",
+        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "logo": "https://i.ibb.co/XZLjpVx/web-design-removebg-preview-1.png"
+    },
+    {
+        "id": 7,
+        "title": "Web Bug Fix",
+        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "logo": "https://i.ibb.co/P5MrmYv/bug-fix.png"
+    },
+    {
+        "id": 8,
+        "title": "Mobile App",
+        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "logo": "https://i.ibb.co/d7Z536w/mobile-app-removebg-preview.png"
+    },
+    {
+        "id": 9,
+        "title": "E-Commerce Site",
+        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "logo": "https://i.ibb.co/jRxtNNc/e-commerce-2-removebg-preview.png"
+    },
+    {
+        "id": 10,
+        "title": "Software Development",
+        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "logo": "https://i.ibb.co/7p3MV6r/software-development-removebg-preview.png"
+    },
+    {
+        "id": 11,
+        "title": "CMS",
+        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "logo": "https://i.ibb.co/NmdWY34/Wordpress-Blue-logo.png"
+    },
+    {
+        "id": 12,
+        "title": "Graphic Design",
+        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "logo": "https://i.ibb.co/q12ddrx/graphic-design.png"
+    }
+]

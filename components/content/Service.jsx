@@ -1,10 +1,11 @@
-import { Button, Card, Col, Row } from 'react-bootstrap';
+import { Card, Col, Row } from 'react-bootstrap';
 import style from '../../styles/Service.module.css';
 import marketing from '../../public/digital-marketing.png';
 import develop from '../../public/programming.png';
 import design from '../../public/graphic-design.png';
 import Image from 'next/image';
 import { FaArrowAltCircleRight } from 'react-icons/fa';
+import data from '../../Data/Services.json';
 
 const Service = () => {
     return (
@@ -14,8 +15,26 @@ const Service = () => {
                 <h3>Our Services</h3>
                 <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
             </div>
-            <div className="container">
-                <Row className={style.container}>
+            <div className="">
+                <Row>
+                    {
+                        data.map(item => (
+                            <Col lg={3} md={4} sm={6} key={item.id}>
+                                <Card className="text-center mt-3 p-3 bg-info">
+                                    <div className={style.card_img}>
+                                        <Image src={item.logo} alt={item.title} width={200} height={100} />
+                                    </div>
+
+                                    <Card.Title>{item.title}</Card.Title>
+                                    <Card.Text>
+                                        <small>{item.about}</small>
+                                    </Card.Text>
+                                </Card>
+                            </Col>
+                        ))
+                    }
+                </Row>
+                {/* <Row className={style.container}>
                     <Col md={4} className="d-flex justify-content-center mt-3">
                         <Card className={`${style.development_card} ${style.card}`}>
                             <div className={style.card_content}>
@@ -118,7 +137,7 @@ const Service = () => {
                             <button className={style.btn}>Know More <FaArrowAltCircleRight /></button>
                         </Card>
                     </Col>
-                </Row>
+                </Row> */}
             </div>
         </section>
     );
