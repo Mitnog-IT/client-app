@@ -9,6 +9,7 @@ const ExtraPart = () => {
         }}>
             <div className="container d-flex justify-content-around align-items-center"
                 style={{ minHeight: '150px' }}>
+                <h6>We want to understand your business and its challenges – don’t be shy!</h6>
                 <h3>So Are you ready to get our service ?</h3>
                 <button style={{
                     padding: '7px 50px',
