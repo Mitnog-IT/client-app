@@ -1,3 +1,7 @@
+.navbar {
+  background: linear-gradient(to left, #0aa2c0 0%, #0aa2c0 45%, #fff 100%);
+}
+
 .scrollNavBar {
   backdrop-filter: blur(8px) brightness(30%) saturate(70%);
   background-color: rgba(15, 15, 15, 0.3);
@@ -5,6 +9,20 @@
 
 .navItems > a {
   text-decoration: none;
-  margin-right: 50px;
   color: #fff;
+  padding: 6px 25px;
+  transition: background-color 0.5s;
+  border-radius: 20px;
+}
+.navItems > a:hover {
+  color: #fff;
+  background-color: #0aa2c0;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(255, 255, 255, 0.7) 100%
+  );
+  background-repeat: no-repeat;
+  transition: background-size 1s, background-color 1s;
 }

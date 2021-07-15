@@ -8,7 +8,7 @@ const Service = () => {
 
     return (
         <section id="services"
-            style={{ fontFamily: '"Roboto Slab", serif', position: 'relative', overflow: 'hidden' }}>
+            style={{position: 'relative', overflow: 'hidden' }}>
             <div style={{ position: 'absolute' }}>
                 <Particles height="100vw" width="100vw"
                     id="tsparticles"
@@ -76,7 +76,7 @@ const Service = () => {
             </div>
             <div style={{ position: 'relative' }}>
                 <div className={style.heading}>
-                    <h3>Services We Provide</h3>
+                    <h4>Services We Provide</h4>
                     <div className="d-flex justify-content-center">
                         <div style={{
                             height: '3px',
