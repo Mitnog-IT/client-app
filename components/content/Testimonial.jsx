@@ -16,7 +16,7 @@ const Testimonial = () => {
                                 <div className={`p-5 ${style.item_card}`}>
                                     <Image src={client1} alt="client1" width={100} height={100} style={{ borderRadius: '50%' }} />
                                     <p>{item.speech}</p>
-                                    <h5 className="text-warning"><AiFillStar /><AiFillStar /><AiFillStar />
+                                    <h5 style={{color:'#ffc107'}}><AiFillStar /><AiFillStar /><AiFillStar />
                                         <AiFillStar /><AiFillStar /></h5>
                                     <h4>{item.author}</h4>
                                     <small>{item.city},{item.country}</small>

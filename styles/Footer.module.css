@@ -10,12 +10,12 @@
 }
 .social > a {
   /* color: #fff; */
-  color: #0aa2c0;
+  color: #01ceff;
   text-decoration: none;
 }
 
 .social > a:hover {
-  color: #7dbcca;
+  color: #0aa2c0;
   text-decoration: none;
 }
 
@@ -24,5 +24,5 @@
 }
 
 .block > small:hover {
-  color: #0aa2c0;
+  color: #01ceff;
 }

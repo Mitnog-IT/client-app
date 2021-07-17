@@ -5,7 +5,7 @@ const Welcome = () => {
 
     return (
         <section className={style.container}>
-            <div className={style.content}>
+            <section className={style.content}>
                 <h1>Our Tech Your Future</h1>
                 <br /> <h3 >
                     <b><Typist sentences={
@@ -14,7 +14,7 @@ const Welcome = () => {
                         typingSpeed={100}
                         loop={true} /></b>
                 </h3>
-            </div>
+            </section>
         </section>
     );
 };

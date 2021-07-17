@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Col, Row } from 'react-bootstrap';
 import { FaFacebookSquare, FaLinkedin, FaMapMarkedAlt, FaRedditSquare, FaTwitterSquare } from 'react-icons/fa';
 import style from '../../styles/Footer.module.css';
-import logo from '../../public/logo1-removebg-preview.png';
+import logo from '../../public/Mitnog.png';
 
 const Footer = () => {
     const year = new Date().getFullYear();
@@ -12,15 +12,14 @@ const Footer = () => {
             <div className="container">
                 <Row className="pt-3">
                     <Col md={4}>
-                        <Image src={logo} alt="mitnog it" width={200} height={66} />
+                        <Image src={logo} alt="mitnog it" width={160} height={50} />
                         <br />
                         <small>Mitnog-IT is an established IT company delivering IT services of any complexity to clients worldwide. Being in IT business for over some years now we has a strong team of skilled experienced IT experts.</small><br /><br />
                         <h3 className={style.social}>
-                            <a href="https://www.facebook.com/mitnogit"
-                            >  <FaFacebookSquare /></a>
-                            <a href="https://www.facebook.com/mitnogit">   <FaLinkedin /></a>
-                            <a href="https://www.facebook.com/mitnogit">  <FaTwitterSquare /></a>
-                            <a href="https://www.facebook.com/mitnogit">  <FaRedditSquare /></a>
+                            <a href="https://www.facebook.com/mitnogit"> <FaFacebookSquare /></a>
+                            <a href="https://www.facebook.com/mitnogit"> <FaLinkedin /></a>
+                            <a href="https://www.facebook.com/mitnogit"> <FaTwitterSquare /></a>
+                            <a href="https://www.facebook.com/mitnogit"> <FaRedditSquare /></a>
                         </h3>
                     </Col>
                     <Col md={2}>
