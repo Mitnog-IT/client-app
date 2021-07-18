@@ -1,0 +1,12 @@
+.container {
+    min-height: 60vh;
+    background-image: url(../public/contact_us_banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+

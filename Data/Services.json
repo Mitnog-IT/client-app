@@ -20,49 +20,49 @@
     {
         "id": 4,
         "title": "Email Marketing",
-        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "about": "Email marketing allows you to build relationships with leads and speak directly to customers.",
         "logo": "https://i.ibb.co/gmB9RtD/email-marketing-logo-removebg-preview.png"
     },
     {
         "id": 5,
         "title": "Web Development",
-        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "about": "A website can thriving your business for a long term.So we want to asure a website for you",
         "logo": "https://i.ibb.co/LZJWwp8/web-development-logo.png"
     },
     {
         "id": 6,
         "title": "Web Design",
-        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "about": "A well-designed website can help you form a good impression on your prospective customers.",
         "logo": "https://i.ibb.co/HYGBmhB/web-design.png"
     },
     {
         "id": 7,
         "title": "Web Bug Fix",
-        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "about": "Looking for Website Bug Fixes Services? We fixes all javascript issues or bugs.",
         "logo": "https://i.ibb.co/P5MrmYv/bug-fix.png"
     },
     {
         "id": 8,
         "title": "Mobile App",
-        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "about": "So the mobile era is here ! A mobile app can perform actions much quicker than a mobile website.",
         "logo": "https://i.ibb.co/PrMFQmw/mobile-app.png"
     },
     {
         "id": 9,
         "title": "E-Commerce Site",
-        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "about": "We’ve been providing E-Commerce web development and helping starting up online shopping sites",
         "logo": "https://i.ibb.co/jRxtNNc/e-commerce-2-removebg-preview.png"
     },
     {
         "id": 11,
         "title": "CMS",
-        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "about": "We provide you wordpress CMS customization and development as per your need.",
         "logo": "https://i.ibb.co/T4SvZRy/Wordpress-Blue-logo.png"
     },
     {
         "id": 12,
         "title": "Graphic Design",
-        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magnam nesciunt corporis",
+        "about": "We ensure first impression for your clients by design a awesome logo,visiting card and others.",
         "logo": "https://i.ibb.co/q12ddrx/graphic-design.png"
     }
 ]
