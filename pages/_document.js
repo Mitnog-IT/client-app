@@ -6,6 +6,7 @@ class MyDocument extends Document {
         return (
             <Html lang="en">
                 <Head>
+                    <link rel="icon" href="/favicon_2.ico" />
                     <meta name="author" content="Mr.Hunter" />
                     <meta name="description" content=" Xbox Gift Cards Freehere is a brand new website which will give you the opportunity to get Gift Cards. By having a Gift Card you will be given the opportunity to purchase games and other apps from online stores." />
                     <meta name="keywords" content=" Xbox Gift Cards, Gift Card Codes, Get Gift Card Codes" />

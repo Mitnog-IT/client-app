@@ -13,7 +13,6 @@ export default function Home() {
     <>
       <Head>
         <title>Mitnog-IT</title>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <Welcome />
       <Service />
