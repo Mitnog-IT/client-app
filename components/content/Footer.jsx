@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="container">
                 <Row className="pt-3">
                     <Col md={4}>
-                        <Image src={logo} alt="mitnog it" width={160} height={50} />
+                        <Image src={logo} alt="mitnog it" width={160} height={45} />
                         <br />
                         <small>Mitnog-IT is an established IT company delivering IT services of any complexity to clients worldwide. Being in IT business for over some years now we has a strong team of skilled experienced IT experts.</small><br /><br />
                         <h3 className={style.social}>

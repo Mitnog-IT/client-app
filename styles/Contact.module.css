@@ -1,12 +1,25 @@
 .container {
-    min-height: 60vh;
-    background-image: url(../public/contact_us_banner1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: rgba(6, 33, 41, 0.25);
+}
+.container::before {
+  content: "";
+  background-image: url(../public/contact_us_banner1.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+  filter: blur(8px);
+  -webkit-filter: blur(4px);
 }
 
+.content {
+  position: relative;
+  padding-top: 30px;
+}

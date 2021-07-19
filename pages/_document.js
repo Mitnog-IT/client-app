@@ -19,6 +19,10 @@ class MyDocument extends Document {
                     <meta name="twitter:card" content="summary" />
                     <meta name="twitter:description" content=" Xbox Gift Cards Freehere is a brand new website which will give you the opportunity to get Gift Cards. By having a Gift Card you will be given the opportunity to purchase games and other apps from online stores" />
                     <meta name="twitter:title" content="Huge Collection of Xbox Gift Cards" />
+
+                    <meta name="google-site-verification" content="u6jaZCPZ8UrzStm-8aYfl1kv1Lm7WWS67EQshmkkrXI" />
+                    <meta name="yandex-site-verification" content="ab9f9cf3ee34e7be" />
+
                     <script
                         type="application/ld+json"
                         dangerouslySetInnerHTML={{
