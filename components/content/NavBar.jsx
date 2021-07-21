@@ -43,10 +43,10 @@ const NavBar = () => {
                         <Link href="#capacity">
                             <a><b>About</b></a>
                         </Link>
-                        <Link href="/">
+                        <Link href="#contact">
                             <a><b>Contact</b></a>
                         </Link>
-                        <Link href="/">
+                        <Link href="#review">
                             <a><b>Review</b></a>
                         </Link>
                     </Nav>

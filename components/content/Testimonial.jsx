@@ -7,7 +7,7 @@ import { AiFillStar } from 'react-icons/ai';
 const Testimonial = () => {
     return (
         <>
-            <Carousel controls={false} interval={3000} pause={false} fade={true} className={style.container}>
+            <Carousel controls={false} interval={3000} pause={false} fade={true} className={style.container} id="review">
                 {
                     data.map(item => (
                         <Carousel.Item key={item.id}>

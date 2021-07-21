@@ -5,7 +5,7 @@ import { GoMailRead } from 'react-icons/go';
 
 const Contact = () => {
     return (
-        <section className={style.container}>
+        <section className={style.container} id="contact">
             <section className={style.content}>
                 <section style={{ fontSize: '60px' }}>
                     <Clock />
