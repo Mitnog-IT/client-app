@@ -1,6 +1,9 @@
 .navbar {
   background: linear-gradient(to left, #0aa2c0 0%, #0aa2c0 45%, #fff 100%);
 }
+.mobileNav {
+  background: linear-gradient(to left, #0aa2c0 0%, #0aa2c0 5%, #fff 100%);
+}
 
 .scrollNavBar {
   backdrop-filter: blur(8px) brightness(30%) saturate(70%);

@@ -6,29 +6,26 @@ import Image from "next/image";
 import logo from '../../public/Mitnog.png';
 
 const NavBar = () => {
-    const [isScroll, setIsScroll] = useState(false);
+    const [windowSize, setWindowSize] = useState(0);
 
-    // const changeNavBar = () => {
-    //     if (window.scrollY > 95) {
-    //         return setIsScroll(true)
-    //     }
-    //     setIsScroll(false)
-    // }
+    useEffect(() => {
+        if (typeof window !== undefined) {
+            return window.addEventListener('resize', handleSize)
+        }
+    }, [])
 
-    // useEffect(() => {
-    //     if (typeof window !== undefined) {
-    //         return window.addEventListener('scroll', changeNavBar)
-    //     }
-    // }, [])
-
+    const handleSize = () => {
+        setWindowSize(window.innerWidth)
+    }
 
     return (
         <Navbar expand="lg"
-            className={isScroll ? `${style.scrollNavBar}` : `'py-3' ${style.navbar}`}>
+            className={windowSize <= 500 ? `${style.mobileNav}` : `'py-3' ${style.navbar}`}>
             <Container>
                 <Link href="/">
                     <a>
-                        <Image src={logo} alt="mitnog it" width={150} height={40} />
+                        {windowSize > 500 && <Image src={logo} alt="mitnog it" width={150} height={40} />}
+                        {windowSize <= 500 && <Image src={logo} alt="mitnog it" width={120} height={35} />}
                     </a>
                 </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
