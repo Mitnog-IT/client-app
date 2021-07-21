@@ -40,7 +40,7 @@ const NavBar = () => {
                         <Link href="#services">
                             <a><b>Services</b></a>
                         </Link>
-                        <Link href="/">
+                        <Link href="#capacity">
                             <a><b>About</b></a>
                         </Link>
                         <Link href="/">
