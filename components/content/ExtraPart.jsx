@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import style from '../../styles/Query.module.css';
 
 const ExtraPart = () => {
     const [windowSize, setWindowSize] = useState(0);
@@ -14,20 +15,14 @@ const ExtraPart = () => {
     }
 
     return (
-        <section style={{
-            minHeight: '150px',
-            color: '#0aa2c0',
-            textAlign: 'center',
-            fontFamily: '"Roboto Slab", serif',
-        }}>
-            <section className="container d-flex justify-content-around align-items-center"
-                style={{ minHeight: '150px' }}>
-                <section>
-                    <small className={windowSize >= 500 && 'fs-6'}>We want to understand your business and its challenges – don’t be shy !</small>
-                    <h3 className="fs-4">Please feel free to give us a shout out on <a href="mitnogit@gmail.com" style={{ color: '#0aa2c0' }}>E-mail</a>.</h3>
-                </section>
+        <section className={style.container}>
+            <section className="container d-sm-flex justify-content-sm-around align-items-center"
+                style={{ height: '150px' }}
+            >
+                <h4 className={windowSize <= 500 && 'fs-6 pt-4 pb-3'}><b>HAVE SOME QUESTIONS ABOUT OUR WORK ?</b></h4>
+                <button className={style.btn}>Ask more</button>
             </section>
-        </section>
+        </section >
     );
 };
 
