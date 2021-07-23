@@ -24,8 +24,7 @@ const NavBar = () => {
             <Container>
                 <Link href="/">
                     <a>
-                        {windowSize > 500 && <Image src={logo} alt="mitnog it" width={150} height={40} />}
-                        {windowSize <= 500 && <Image src={logo} alt="mitnog it" width={120} height={35} />}
+                        {windowSize <= 500 ? <Image src={logo} alt="mitnog it" width={120} height={35} /> : <Image src={logo} alt="mitnog it" width={150} height={40} />}
                     </a>
                 </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
