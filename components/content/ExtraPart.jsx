@@ -1,26 +1,28 @@
+import { useState, useEffect } from "react";
+import style from '../../styles/Query.module.css';
 
 const ExtraPart = () => {
+    const [windowSize, setWindowSize] = useState(0);
+
+    useEffect(() => {
+        if (typeof window !== undefined) {
+            return window.addEventListener('resize', handleSize)
+        }
+    }, [])
+
+    const handleSize = () => {
+        setWindowSize(window.innerWidth)
+    }
+
     return (
-        <section style={{
-            minHeight: '150px',
-            color: '#0aa2c0',
-            textAlign: 'center',
-            fontFamily: '"Roboto Slab", serif',
-        }}>
-            <section className="container d-flex justify-content-around align-items-center"
-                style={{ minHeight: '150px' }}>
-                <section>
-                    <h6>We want to understand your business and its challenges – don’t be shy!</h6>
-                    <h3>Please feel free to give us a shout out on <a href="mitnogit@gmail.com" style={{color:'#0aa2c0'}}>E-mail</a>.</h3>
-                </section>
-                {/* <button style={{
-                    padding: '2px 50px',
-                    border: 'none',
-                    background: '#0aa2c0',
-                    color: '#fff'
-                }}>Yes</button> */}
+        <section className={style.container}>
+            <section className="container d-sm-flex justify-content-sm-around align-items-center"
+                style={{ height: '150px' }}
+            >
+                <h4 className={windowSize <= 500 && 'fs-6 pt-4 pb-3'}><b>HAVE SOME QUESTIONS ABOUT OUR WORK ?</b></h4>
+                <button className={style.btn}>Ask more</button>
             </section>
-        </section>
+        </section >
     );
 };
 
