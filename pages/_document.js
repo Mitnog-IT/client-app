@@ -28,7 +28,7 @@ class MyDocument extends Document {
                     <meta name="linkedin:title" content="Mitnog IT" />
 
                     <meta name="google-site-verification" content="u6jaZCPZ8UrzStm-8aYfl1kv1Lm7WWS67EQshmkkrXI" />
-                    <meta name="yandex-site-verification" content="ab9f9cf3ee34e7be" />
+                    <meta name="yandex-verification" content="ab9f9cf3ee34e7be" />
 
                     <script
                         type="application/ld+json"
@@ -37,7 +37,7 @@ class MyDocument extends Document {
                                 "@context": "https://schema.org",
                                 "@type": "LegalService",
                                 name: "Mitnog IT",
-                                image: "",
+                                image: "https://mitnogit.com/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2FMitnog.ab34646b071d75962608a25320aaf1c7.png&w=256&q=75",
                                 "@id": "",
                                 url: "https://mitnogit.com/",
                                 telephone: "01884598626",
