@@ -7,14 +7,14 @@ class MyDocument extends Document {
             <Html lang="en">
                 <Head>
                     <link rel="icon" href="/favicon_2.ico" />
-                    <meta name="author" content="Mitnog IT" />
+                    <meta name="author" content="MitnogIT" />
                     <meta name="description" content=" welcome to mitnogit. we are a information and communicaion services provider company. we can can give you digital marketing, seo, social media marketing, sem, smm, aso, web development, web design, web bug fix, email marketing, video marketing, logo design, business card design, softwere development, mobile development, ecommarce development, cms development, wordpress development, etc." />
                     <meta name="keywords" content=" digital marketing, seo, social media marketing, sem, smm, aso, web development, web design, web bug fix, email marketing, video marketing, logo design, business card design, softwere development, mobile development, ecommarce development, cms development, wordpress development, etc" />
                     <meta property="og:description" content=" welcome to mitnogit. we are a information and communicaion services provider company. we can can give you digital marketing, seo, social media marketing, sem, smm, aso, web development, web design, web bug fix, email marketing, video marketing, logo design, business card design, softwere development, mobile development, ecommarce development, cms development, wordpress development, etc." />
                     <meta property="og:image" content="img/fb.png" />
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:type" content="website" />
-                    <meta property="og:site_name" content="Mitnog IT" />
+                    <meta property="og:site_name" content="MitnogIT" />
                     <meta property="og:title" content="Our Tech Your Future" />
                     <meta property="og:url" content="https://mitnogit.com" />
                     <meta name="twitter:og:url" content="https://twitter.com/mitnogit" />
