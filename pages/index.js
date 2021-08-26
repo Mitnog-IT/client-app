@@ -12,7 +12,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Mitnog IT</title>
+        <title>
+          MitnogIT || Digital Marketing | Web Development | Graphic Design
+        </title>
       </Head>
       <Welcome />
       <Service />
