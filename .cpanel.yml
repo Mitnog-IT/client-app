@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/mitnhwhu/public_html/
+    - export DEPLOYPATH=/home/mitnhwhu/mitnogit.com/
     - /bin/cp * $DEPLOYPATH
