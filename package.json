@@ -1,6 +1,5 @@
 {
   "name": "client-app",
-  "homepage": "https://mitnogit.com/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
