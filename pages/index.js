@@ -12,9 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>
-          MitnogIT || Digital Marketing | Web Development | Graphic Design
-        </title>
+        <title>MitnogIT -Digital Marketing | Web Development | Graphic Design</title>
       </Head>
       <Welcome />
       <Service />
